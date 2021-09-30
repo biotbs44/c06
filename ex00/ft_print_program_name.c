@@ -6,7 +6,7 @@
 /*   By: jungyang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/28 20:45:57 by jungyang          #+#    #+#             */
-/*   Updated: 2021/09/28 20:51:47 by jungyang         ###   ########.fr       */
+/*   Updated: 2021/09/30 11:42:54 by jungyang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ int	main(int argc, char **argv)
 	int	i;
 
 	i = 0;
+	(void)argc;
 	while (argv[0][i] != '\0')
 	{
 		write(1, &argv[0][i], 1);
